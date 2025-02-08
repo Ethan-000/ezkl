@@ -2372,7 +2372,7 @@ pub(crate) fn aggregate(
     Ok(snark)
 }
 
-pub(crate) fn verify(
+pub fn verify(
     proof_path: PathBuf,
     settings_path: PathBuf,
     vk_path: PathBuf,
